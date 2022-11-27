@@ -213,7 +213,7 @@ a{
 .features{
    margin-right: 40px;
    margin-top: 20px;
-   text-size-adjust: 50px ;
+   text-size-adjust: 50;
    font-family: 'Roboto Condensed';
    font-size: 72px;
    font-weight: 700;
@@ -240,7 +240,7 @@ a{
    /* display:flex; */
    margin-right: 40px;
    margin-top: 20px;
-   text-size-adjust: 50px ;
+   text-size-adjust: 50;
    margin-bottom: 230px;
 }
 .feature__h3{

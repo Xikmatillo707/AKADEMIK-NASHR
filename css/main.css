@@ -65,7 +65,15 @@ a{
    margin-left: auto;
    margin-right: auto;
 }
-
+.logo{
+   transition: opacity 0.4s ease;
+}
+.logo:hover{
+opacity: 0.8;
+}
+.logo:active{
+opacity: 0.6;
+}
 .orange-btn{
    font-family: 'Roboto';
    font-style: normal;
@@ -80,7 +88,13 @@ a{
    text-decoration: none;
    white-space: nowrap;
    display: inline-block;
-   
+   transition: opacity 0.4s ease;   
+}
+.orange-btn:hover{
+   opacity: 0.8;
+}
+.orange-btn:active{
+   opacity: 0.6;
 }
 
 /* SITE-HEADER */
@@ -117,6 +131,14 @@ a{
 
 .sitenav__link{
    text-decoration: none;
+   transition: color 0,4 ease,
+   opacity 0.4s ease;
+}
+.sitenav__link:hover{
+   color: #FF7500;
+}
+.sitenav__link:active{
+   opacity: 0.6;
 }
 .a__first{
    border-bottom: 5px solid #FF7500;
@@ -187,6 +209,13 @@ a{
    color: white;
    opacity: 0.8;
    border-radius: 4px; 
+   transition: opacity 0.4s ease;
+}
+.orange__btn:hover{
+opacity: 0.8;
+}
+.orange__btn:active{
+   opacity: 0.6;
 }
 .a__text{
    font-family: 'Roboto';
@@ -313,7 +342,12 @@ a{
    align-items: flex-end;
    padding-left: 16px;
 }
-
+.social__link:hover{
+   color: #FF7500;
+}
+.social__link:active{
+opacity: 0.6;
+}
 /* FOOTER */
 .end{
    background-color:#F8F8F8 ;
@@ -373,5 +407,8 @@ a{
    align-self: stretch;
 }
 .item__a:hover{
-   border-bottom: 3px solid rgb(73, 73, 197);
+color: #FF7500;
+}
+.item__a:focus{
+   opacity: 0.6;
 }

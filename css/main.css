@@ -55,7 +55,10 @@ a{
    color: #000;
    text-decoration: none;
 }
-
+*:focus{
+   outline: 2px dotted #FF7500;
+   outline-offset: 3px;
+}
 .container{
    display: flex;
    justify-content: space-between;
@@ -409,6 +412,6 @@ opacity: 0.6;
 .item__a:hover{
 color: #FF7500;
 }
-.item__a:focus{
+.item__a:active{
    opacity: 0.6;
 }
